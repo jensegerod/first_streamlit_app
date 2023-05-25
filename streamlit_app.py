@@ -48,5 +48,4 @@ streamlit.write('Thanks for adding ', fruit_added)
 
 
 #this should be changed
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST
-values ('from streamlit')")
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
